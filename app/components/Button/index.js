@@ -2,9 +2,11 @@
 
 import React from "react";
 import { useTheme } from "next-themes";
-import data from "../../data/portfolio.json";
+import { useLanguage } from '@/src/context/LanguageContext';
 
 const Button = ({ children, type, onClick, classes }) => {
+  const { data } = useLanguage();
+
   const { theme } = useTheme();
   if (type === "primary") {
     return (

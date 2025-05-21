@@ -1,8 +1,7 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./styles/globals.css";
 import ThemeWrapper from "./components/ThemeWrapper";
 import Cursor from "./components/Cursor/index";
-
+import { LanguageProvider } from "../src/context/LanguageContext";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,10 +12,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <ThemeWrapper>
-          <Cursor />
-          {children}
-        </ThemeWrapper>
+        <LanguageProvider>
+          <ThemeWrapper>
+            <Cursor />
+            {children}
+          </ThemeWrapper>
+        </LanguageProvider>
       </body>
     </html>
   );

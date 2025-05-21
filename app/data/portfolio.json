@@ -1,125 +1,265 @@
 {
-  "name": "TKSOHLT",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Chetan Verma - curious",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
+  "name": "Moises Rodríguez",
+  "headerTaglineOne": "Hello! 👋",
+  "headerTaglineTwo": "I'm Moises Rodríguez - ",
+  "headerTaglineThree": "Full Stack Mobile & Web",
+  "headerTaglineFour": "developer.",
   "showCursor": true,
-  "showBlog": true,
   "darkMode": true,
-  "showResume": true,
+  "headerOne": "About.",
+  "headerTwo": "Tools & Skills.",
+  "headerThree": "Experience.",
+  "headerFour": "Education.",
+  "headerFive": "Projects.",
   "socials": [
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/chetanverma16"
+      "link": "https://github.com/TKSOHLT"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
+      "link": "https://www.linkedin.com/in/moises-rodr%C3%ADguez-bola%C3%B1os-8a59b2355/"
     },
     {
       "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
+      "title": "Email",
+      "link": "mailto:rodriguezbolanosmoises@gmail.com"
+    }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "DentistLanding",
+      "description": "A modern and responsive landing page designed for dental clinics, focused on attracting new patients by clearly showcasing services, office hours, and contact information.",
+      "bullets": [
+        "🦷 UI Prototype Design: Clean and professional user interface tailored for dental services.",
+        "📱 Responsive Layout: Fully optimized for mobile, tablet, and desktop devices.",
+        "⚙️ Modern Tech Stack: Built using React and Tailwind CSS for fast and efficient development.",
+        "✉️ Contact Form: Includes a contact form to receive inquiries.",
+        "🎨 Customizable Design: Easy to adapt colors, fonts, and content to match any dental clinic’s brand."
+      ],
+      "images": [
+        "/images/astro.png",
+        "/images/react.webp",
+        "/images/html.png",
+        "/images/tailwind.png"
+      ],
+      "url": "https://github.com/TKSOHLT/DentistLanding"
     },
     {
       "id": "2",
-      "title": "Project Two",
-      "description": "Web Development",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Experiencias Mágicas",
+      "description": "Mobile travel app built with Flutter and Dart, designed to help users plan magical experiences by browsing itineraries, viewing schedules and photos, and purchasing tickets seamlessly through PayPal.",
+      "bullets": [
+        "🚀 Developed with Flutter and Dart for cross-platform mobile experience.",
+        "🗺️ Browse detailed travel itineraries tailored for magical journeys.",
+        "🕒 View schedules and availability for tours and events.",
+        "📸 Explore vibrant destination images to inspire travelers.",
+        "💳 Seamless ticket purchasing integrated with PayPal for secure payments.",
+        "🎯 User-friendly interface designed for smooth navigation and booking."
+      ],
+      "images": [
+        "/images/flutter.webp",
+        "/images/dart.png"
+      ],
+      "url": "https://github.com/TKSOHLT/experiencias_magicas"
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      "title": "Weather",
+      "description": "A clean and modern weather app UI design created with SwiftUI, showcasing layouts, animations, and visual elements without backend logic.",
+      "bullets": [
+        "🎨 Modern UI design focused on user experience",
+        "🛠️ Built entirely with SwiftUI components",
+        "✨ Includes smooth animations and transitions",
+        "📱 Responsive layout for different screen sizes",
+        "🧹 Clean and intuitive interface",
+        "🔍 Emphasis on readability and visual hierarchy"
+      ],
+      "images": [
+        "/images/swift.png"
+      ],
       "url": "http://chetanverma.com/"
     }
   ],
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Kotlin",
+      "description": "A modern programming language for Android and multiplatform development.",
+      "image": "/images/kotlin.png"
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Jetpack Compose",
+      "description": "A UI toolkit for building native Android interfaces using declarative code.",
+      "image": "/images/jetpack_compose.png"
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Java",
+      "description": "A widely-used language for building Android apps and cross-platform applications.",
+      "image": "/images/java.png"
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "JavaScript",
+      "description": "The core language of the web, used for interactive and dynamic web pages.",
+      "image": "/images/javascript.png"
+    },
+    {
+      "id": "5",
+      "title": "Vue.js",
+      "description": "A progressive JavaScript framework for building user interfaces and single-page apps.",
+      "image": "/images/vue.png"
+    },
+    {
+      "id": "6",
+      "title": "Pinia",
+      "description": "A state management library for Vue.js, offering a simpler and modern alternative to Vuex.",
+      "image": "/images/pinia.png"
+    },
+    {
+      "id": "7",
+      "title": "React",
+      "description": "A JavaScript library for building fast, dynamic, and reusable user interfaces.",
+      "image": "/images/react.webp"
+    },
+    {
+      "id": "8",
+      "title": "HTML",
+      "description": "The standard markup language for creating the structure of web pages.",
+      "image": "/images/html.png"
+    },
+    {
+      "id": "9",
+      "title": "CSS",
+      "description": "A stylesheet language used to style the layout and appearance of web content.",
+      "image": "/images/css.png"
+    },
+    {
+      "id": "10",
+      "title": "Flutter",
+      "description": "A UI framework by Google for building natively compiled apps from a single codebase.",
+      "image": "/images/flutter.webp"
+    },
+    {
+      "id": "11",
+      "title": "Dart",
+      "description": "A fast, object-oriented programming language by Google optimized for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "image": "/images/dart.png"
+    },
+
+    {
+      "id": "12",
+      "title": "SwiftUI",
+      "description": "A modern framework by Apple for building iOS, macOS, and watchOS user interfaces.",
+      "image": "/images/swift.png"
+    },
+    {
+      "id": "13",
+      "title": "Adobe Photoshop",
+      "description": "An industry-standard tool for photo editing, graphic design, and digital art.",
+      "image": "/images/photoshop.png"
+    },
+    {
+      "id": "14",
+      "title": "Adobe Illustrator",
+      "description": "A vector graphics editor used for creating logos, illustrations, and icons.",
+      "image": "/images/illustrator.png"
+    },
+    {
+      "id": "15",
+      "title": "MySQL",
+      "description": "An open-source relational database system for storing and managing structured data.",
+      "image": "/images/mysql.png"
+    },
+    {
+      "id": "16",
+      "title": "Figma",
+      "description": "A cloud-based design tool for UI/UX design and collaborative prototyping.",
+      "image": "/images/figma.webp"
+    },
+    {
+      "id": "17",
+      "title": "PHP",
+      "description": "A server-side scripting language widely used for web development and dynamic websites.",
+      "image": "/images/php.png"
+    },
+    {
+      "id": "18",
+      "title": "Node.js",
+      "description": "A JavaScript runtime built on Chrome's V8 engine, ideal for scalable backend applications.",
+      "image": "/images/node.png"
+    },
+    {
+      "id": "19",
+      "title": "Astro",
+      "description": "A modern static site builder that delivers lightning-fast performance by shipping less JavaScript and enabling island-based architecture.",
+      "image": "/images/astro.png"
+    },
+    {
+      "id": "20",
+      "title": "Tailwind CSS",
+      "description": "A modern static site builder that delivers lightning-fast performance by shipping less JavaScript and enabling island-based architecture.",
+      "image": "/images/tailwind.png"
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "Hi! I'm Moises Rodríguez Bolaños, a passionate Software Developer specialized in full stack mobile and web development. I love building clean, efficient, and scalable solutions that make an impact.With a background in Computer Systems Engineering, I’ve developed and maintained apps using technologies like Flutter, Kotlin (Jetpack Compose), Vue.js, JavaScript, Java, PHP, and Node.js. Whether it's a cross-platform mobile app or a complex web system, I enjoy taking projects from concept to production.My approach blends solid engineering principles with a deep understanding of user experience and product goals. I’m always exploring new tools, improving my skills, and looking for better ways to solve problems..",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "👋  I'm a full stack developer.",
+    "description": "Computer Systems Engineer with experience in full stack development for mobile and web applications. Focused on delivering efficient, scalable solutions with a strong emphasis on user experience, and adept at collaborating in multidisciplinary teams and adapting to new technological challenges.",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
+        "dates": "June 2023 - Present",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
-      },
-      {
-        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        "position": "Full Stack Developer at Abarrotera Hidalgo de Tehuacán SA de CV",
+        "sections": [
+          {
+            "id": "1",
+            "title": "Summary",
+            "bullets": [
+              "As a versatile software developer, I have contributed to multiple stages of the development process—from backend architecture and database design to frontend development and user experience design. I have worked on both web and mobile platforms, implementing responsive interfaces and integrating APIs using modern technologies like Vue.js, Flutter, and Jetpack Compose. I emphasize clean code, performance optimization, and creating intuitive user experiences across devices."
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Responsabilities",
+            "bullets": [
+              "Developed and maintained backend applications using PHP, implementing business logic and MySQL database structures according to project requirements.",
+              "Designed relational database schemas optimized for performance and scalability.",
+              "Built simple and functional APIs to enable communication between the frontend (e.g., Vue.js with Pinia) and the backend.",
+              "Collaborated on the design and development of user-centered interfaces using Figma, with a strong focus on usability, accessibility, and visual experience.",
+              "Contributed to technical decisions regarding code organization, project structure, and data flow, especially in mobile projects using Flutter/Dart, Jetpack Compose (Kotlin), and Swift UI.",
+              "Implemented native mobile features with Java and Kotlin for Android, and Swift for iOS, ensuring consistency and high performance across platforms.",
+              "Supported debugging, bug fixing, and performance optimization in both web and mobile applications."
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Challenges & Solutions",
+            "description": "One of my most complex challenges was building a kiosk-mode Android application using Device Owner APIs to enhance control over the smartphones. This app needed to function as the primary launcher, fully lock or suspend the device. Solution:",
+            "bullets": [
+              "Implemented full device lockdown and kiosk mode toggle, using Android’s DevicePolicyManager APIs.",
+              "Developed real-time location tracking, and notification capture features that store data securely on a remote server.",
+              "Enabled automatic media backup (images, videos, files) to the server using scoped storage and background services.",
+              "Integrated Socket.IO to establish real-time communication with a custom MDM platform built in Node.js (although my role was focused solely on the Android client).",
+              "Scheduled background tasks using WorkManager to ensure reliability and persistence across reboots and network changes."
+            ]
+          }
+        ]
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "Instituto Tecnológico de Tehuacán",
+      "universityDate": "2019-2025",
+      "universityPara": "Computer Systems Engineering"
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "languages": ["Javascript", "HTML5", "CSS", "Dart", "Java", "Kotlin", "SQL", "Swift", "PHP"],
+    "frameworks": ["Jetpack Compose", "Vue.js", "React", "NodeJs", "Astro"],
+    "others": ["Figma", "Flutter", "Adobe Photoshop", "Adobe Illustrator", "Pinia", "Tailwind CSS"]
   }
 }

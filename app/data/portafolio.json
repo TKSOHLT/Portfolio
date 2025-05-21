@@ -1,0 +1,265 @@
+{
+  "name": "Moises Rodríguez",
+  "headerTaglineOne": "¡Hola! 👋",
+  "headerTaglineTwo": "Soy Moises Rodríguez - ",
+  "headerTaglineThree": "Desarrollador Full Stack",
+  "headerTaglineFour": "Móvil & Web.",
+  "showCursor": true,
+  "darkMode": true,
+  "headerOne": "Acerca de.",
+  "headerTwo": "Herramientas y habilidades.",
+  "headerThree": "Experiencia.",
+  "headerFour": "Educación.",
+  "headerFive": "Proyectos.",
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/TKSOHLT"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/moises-rodr%C3%ADguez-bola%C3%B1os-8a59b2355/"
+    },
+    {
+      "id": "3",
+      "title": "Email",
+      "link": "mailto:rodriguezbolanosmoises@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "DentistLanding",
+      "description": "Una landing page moderna y responsiva diseñada para clinicas dentales, centrada en atraer a nuevos pacientes mostrando claramente los servicios, horarios e información de contacto.",
+      "bullets": [
+        "🦷 UI Diseño de prototipo: Interfaz de usuario fácil e intuitiva, adaptada a servicios dentales.",
+        "📱 Diseño responsivo: Completamente optimizado para dispositivos móviles, tabletas y computadoras de escritorio.",
+        "⚙️ Tecnología moderna: Construida con React y Tailwind CSS para un desarrollo ágil y eficiente.",
+        "✉️ Formulario de contacto: Incluye un formulario de contacto para recibir consultas.",
+        "🎨 Disñeo personalizado: Colores, fuentes y contenido fáciles de adaptar para que coincidan con la marca de cualquier clínica dental."
+      ],
+      "images": [
+        "/images/astro.png",
+        "/images/react.webp",
+        "/images/html.png",
+        "/images/tailwind.png"
+      ],
+      "url": "https://github.com/TKSOHLT/DentistLanding"
+    },
+    {
+      "id": "2",
+      "title": "Experiencias Mágicas",
+      "description": "Aplicación de viajes móvil desarrollada con Flutter y Dart, diseñada para ayudar a los usuarios a planificar experiencias mágicas explorando itinerarios, viendo horarios y fotos, y comprando boletos sin problemas a través de PayPal.",
+      "bullets": [
+        "🚀 Desarrollado con Flutter y Dart para una experiencia móvil multiplataforma.",
+        "🗺️ Explora itinerarios de viaje detallados diseñados para viajes mágicos.",
+        "🕒 Ver horarios y disponibilidad de tours y eventos.",
+        "📸 Explora imágenes vibrantes de destinos para inspirar a los viajeros.",
+        "💳 Compra de entradas sin complicaciones integrada con PayPal para pagos seguros.",
+        "🎯 Interfaz fácil de usar diseñada para una navegación y reserva fluidas."
+      ],
+      "images": [
+        "/images/flutter.webp",
+        "/images/dart.png"
+      ],
+      "url": "https://github.com/TKSOHLT/experiencias_magicas"
+    },
+    {
+      "id": "3",
+      "title": "Weather",
+      "description": "Un diseño de interfaz de usuario de aplicación meteorológica limpio y moderno creado con SwiftUI, que muestra diseños, animaciones y elementos visuales sin lógica de backend.",
+      "bullets": [
+        "🎨 Diseño de interfaz de usuario moderno centrado en la experiencia del usuario.",
+        "🛠️ Construido íntegramente con componentes SwiftUI.",
+        "✨ Incluye animaciones y transiciones suaves.",
+        "📱 Diseño adaptable para diferentes tamaños de pantalla.",
+        "🧹 Interfaz limpia e intuitiva.",
+        "🔍 Énfasis en la legibilidad y la jerarquía visual."
+      ],
+      "images": [
+        "/images/swift.png"
+      ],
+      "url": "http://chetanverma.com/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Kotlin",
+      "description": "Un lenguaje de programación moderno para Android y desarrollo multiplataforma.",
+      "image": "/images/kotlin.png"
+    },
+    {
+      "id": "2",
+      "title": "Jetpack Compose",
+      "description": "Un kit de herramientas de interfaz de usuario para crear interfaces nativas de Android utilizando código declarativo.",
+      "image": "/images/jetpack_compose.png"
+    },
+    {
+      "id": "3",
+      "title": "Java",
+      "description": "Un lenguaje ampliamente utilizado para crear aplicaciones de Android y aplicaciones multiplataforma.",
+      "image": "/images/java.png"
+    },
+    {
+      "id": "4",
+      "title": "JavaScript",
+      "description": "El lenguaje principal de la web, utilizado para páginas web interactivas y dinámicas.",
+      "image": "/images/javascript.png"
+    },
+    {
+      "id": "5",
+      "title": "Vue.js",
+      "description": "Un marco de JavaScript progresivo para crear interfaces de usuario y aplicaciones de una sola página.",
+      "image": "/images/vue.png"
+    },
+    {
+      "id": "6",
+      "title": "Pinia",
+      "description": "Una biblioteca de gestión de estados para Vue.js, que ofrece una alternativa más simple y moderna a Vuex.",
+      "image": "/images/pinia.png"
+    },
+    {
+      "id": "7",
+      "title": "React",
+      "description": "Una biblioteca de JavaScript para crear interfaces de usuario rápidas, dinámicas y reutilizables.",
+      "image": "/images/react.webp"
+    },
+    {
+      "id": "8",
+      "title": "HTML",
+      "description": "El lenguaje de marcado estándar para crear la estructura de páginas web.",
+      "image": "/images/html.png"
+    },
+    {
+      "id": "9",
+      "title": "CSS",
+      "description": "Un lenguaje de hoja de estilo utilizado para diseñar el diseño y la apariencia del contenido web.",
+      "image": "/images/css.png"
+    },
+    {
+      "id": "10",
+      "title": "Flutter",
+      "description": "Un marco de interfaz de usuario de Google para crear aplicaciones compiladas de forma nativa a partir de una única base de código.",
+      "image": "/images/flutter.webp"
+    },
+    {
+      "id": "11",
+      "title": "Dart",
+      "description": "Un lenguaje de programación rápido y orientado a objetos de Google, optimizado para crear aplicaciones compiladas de forma nativa para dispositivos móviles, la Web y computadoras de escritorio a partir de una única base de código.",
+      "image": "/images/dart.png"
+    },
+
+    {
+      "id": "12",
+      "title": "SwiftUI",
+      "description": "Un marco moderno de Apple para crear interfaces de usuario de iOS, macOS y watchOS.",
+      "image": "/images/swift.png"
+    },
+    {
+      "id": "13",
+      "title": "Adobe Photoshop",
+      "description": "Una herramienta estándar de la industria para la edición de fotografías, el diseño gráfico y el arte digital.",
+      "image": "/images/photoshop.png"
+    },
+    {
+      "id": "14",
+      "title": "Adobe Illustrator",
+      "description": "Un editor de gráficos vectoriales utilizado para crear logotipos, ilustraciones e íconos.",
+      "image": "/images/illustrator.png"
+    },
+    {
+      "id": "15",
+      "title": "MySQL",
+      "description": "Un sistema de base de datos relacional de código abierto para almacenar y gestionar datos estructurados.",
+      "image": "/images/mysql.png"
+    },
+    {
+      "id": "16",
+      "title": "Figma",
+      "description": "Una herramienta de diseño basada en la nube para diseño de UI/UX y creación de prototipos colaborativos.",
+      "image": "/images/figma.webp"
+    },
+    {
+      "id": "17",
+      "title": "PHP",
+      "description": "Un lenguaje de programación del lado del servidor ampliamente utilizado para el desarrollo web y sitios web dinámicos.",
+      "image": "/images/php.png"
+    },
+    {
+      "id": "18",
+      "title": "Node.js",
+      "description": "Un entorno de ejecución de JavaScript creado con el motor V8 de Chrome, ideal para aplicaciones backend escalables.",
+      "image": "/images/node.png"
+    },
+    {
+      "id": "19",
+      "title": "Astro",
+      "description": "Un constructor de sitios estáticos moderno que ofrece un rendimiento increíblemente rápido al enviar menos JavaScript y habilitar una arquitectura basada en islas.",
+      "image": "/images/astro.png"
+    },
+    {
+      "id": "20",
+      "title": "Tailwind CSS",
+      "description": "Un constructor de sitios estáticos moderno que ofrece un rendimiento increíblemente rápido al enviar menos JavaScript y habilitar una arquitectura basada en islas.",
+      "image": "/images/tailwind.png"
+    }
+  ],
+  "aboutpara": "¡Hola! Soy Moisés Rodríguez Bolaños, un apasionado desarrollador de software especializado en desarrollo web y móvil full stack. Me apasiona crear soluciones limpias, eficientes y escalables que generen impacto. Con formación en Ingeniería de Sistemas Computacionales, he desarrollado y mantenido aplicaciones utilizando tecnologías como Flutter, Kotlin (Jetpack Compose), Vue.js, JavaScript, Java, PHP y Node.js. Ya sea una aplicación móvil multiplataforma o un sistema web complejo, disfruto llevando los proyectos desde la fase de concepto hasta la producción. Mi enfoque combina sólidos principios de ingeniería con un profundo conocimiento de la experiencia de usuario y los objetivos del producto. Siempre estoy explorando nuevas herramientas, mejorando mis habilidades y buscando mejores maneras de resolver problemas.",
+  "resume": {
+    "tagline": "👋 Soy un desarrollador full stack.",
+    "description": "Ingeniero de Sistemas Informáticos con experiencia en desarrollo integral de aplicaciones móviles y web. Centrado en ofrecer soluciones eficientes y escalables, priorizando la experiencia del usuario y con capacidad para colaborar en equipos multidisciplinarios y adaptarse a nuevos retos tecnológicos.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Junio 2023 - Present",
+        "type": "Tiempo completo",
+        "position": "Desarrollador Full Stack en Abarrotera Hidalgo de Tehuacán SA de CV",
+        "sections": [
+          {
+            "id": "1",
+            "title": "Resumen",
+            "bullets": [
+              "Como desarrollador de software versátil, he contribuido a múltiples etapas del proceso de desarrollo, desde la arquitectura backend y el diseño de bases de datos hasta el desarrollo frontend y el diseño de la experiencia de usuario. He trabajado tanto en plataformas web como móviles, implementando interfaces responsivas e integrando API con tecnologías modernas como Vue.js, Flutter y Jetpack Compose. Priorizo ​​el código limpio, la optimización del rendimiento y la creación de experiencias de usuario intuitivas en todos los dispositivos."
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Responsabilidades",
+            "bullets": [
+              "Desarrollé y mantuve aplicaciones backend utilizando PHP, implementando lógica de negocios y estructuras de bases de datos MySQL de acuerdo con los requisitos del proyecto.",
+              "Diseñé esquemas de bases de datos relacionales optimizados para el rendimiento y la escalabilidad.",
+              "Creé API simples y funcionales para permitir la comunicación entre el frontend (por ejemplo, Vue.js con Pinia) y el backend.",
+              "Colaboré ​​​​en el diseño y desarrollo de interfaces centradas en el usuario utilizando Figma, con un fuerte enfoque en la usabilidad, la accesibilidad y la experiencia visual.",
+              "Contribuí a las decisiones técnicas sobre la organización del código, la estructura del proyecto y el flujo de datos, especialmente en proyectos móviles utilizando Flutter/Dart, Jetpack Compose (Kotlin) y Swift UI.",
+              "Implementé funciones móviles nativas con Java y Kotlin para Android y Swift para iOS, lo que garantiza la consistencia y el alto rendimiento en todas las plataformas.",
+              "Depuré y corregí errores además de la optimización del rendimiento en aplicaciones web y móviles."
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Desafíos y soluciones",
+            "description": "Uno de mis retos más complejos fue crear una aplicación Android en modo quiosco utilizando las API del propietario del dispositivo para mejorar el control de los smartphones. Esta aplicación debía funcionar como el lanzador principal y bloquear o suspender completamente el dispositivo. Solución:",
+            "bullets": [
+              "Se implementó el bloqueo total del dispositivo y el cambio al modo quiosco, utilizando las API DevicePolicyManager de Android.",
+              "Se desarrollaron funciones de seguimiento de ubicación en tiempo real y captura de notificaciones que almacenan datos de forma segura en un servidor remoto.",
+              "Se habilitó la copia de seguridad automática de medios (imágenes, videos, archivos) en el servidor mediante almacenamiento con alcance y servicios en segundo plano.",
+              "Socket.IO integrado para establecer comunicación en tiempo real con una plataforma MDM personalizada construida en Node.js (aunque mi rol se centró únicamente en el cliente Android).",
+              "Tareas en segundo plano programadas mediante WorkManager para garantizar la confiabilidad y la persistencia en reinicios y cambios de red."
+            ]
+          }
+        ]
+      }
+    ],
+    "education": {
+      "universityName": "Instituto Tecnológico de Tehuacán",
+      "universityDate": "2019-2025",
+      "universityPara": "Ingeniería en sistemas computacionales"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Dart", "Java", "Kotlin", "SQL", "Swift", "PHP"],
+    "frameworks": ["Jetpack Compose", "Vue.js", "React", "NodeJs", "Astro"],
+    "others": ["Figma", "Flutter", "Adobe Photoshop", "Adobe Illustrator", "Pinia", "Tailwind CSS"]
+  }
+}
