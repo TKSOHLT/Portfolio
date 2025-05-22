@@ -8,8 +8,7 @@ const ProjectResume = ({ dates, type, position, sections }) => {
         <h2>{dates}</h2>
         <h3 className="text-sm opacity-50">{type}</h3>
       </div>
-      <div className="w-3/5">
-
+      <div className="w-3/5 mob:w-full">
         <h2 className="text-lg font-bold">{position}</h2>
         {sections.map(({ id, title, description, bullets }) => (
           <ul className="list-disc py-2" key={id}>

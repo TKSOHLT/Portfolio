@@ -1,18 +1,57 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import { motion } from "framer-motion";
 
 const WorkCard = ({ images, name, description, onClick, bullets }) => {
+  const [isHoverable, setIsHoverable] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const mediaQuery = window.matchMedia("(hover: hover)");
+      setIsHoverable(mediaQuery.matches);
+    }
+  }, []);
+
+  const generateImgVariants = (index, translateX, translateY, rotate) => ({
+    rest: {
+      bottom: "-10rem",
+      opacity: 0.85,
+      scale: 1,
+      x: `${translateX}rem`,
+      y: `-${translateY}rem`,
+      rotate,
+    },
+    hover: {
+      bottom: "0rem",
+      opacity: 1,
+      scale: 1.1,
+      x: `${translateX}rem`,
+      y: `-${translateY}rem`,
+      rotate,
+      transition: {
+        delay: index * 0.1,
+        duration: 0.7,
+        ease: "easeOut",
+      },
+    },
+  });
+
   return (
-    <div
+    <motion.div
       className="relative overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl hover:z-10 hover:pb-[5rem] group"
       onClick={onClick}
+      initial="rest"
+      animate="rest"
+      whileHover={isHoverable ? "hover" : "rest"}
+      whileInView={!isHoverable ? "hover" : "rest"}
+      viewport={{ once: true, amount: 0.4 }}
     >
       {/* Texto e información del proyecto */}
       <div className="relative z-10">
         <h1 className="mt-5 text-3xl font-medium">
-          {name ? name : "Project Name"}
+          {name || "Project Name"}
         </h1>
         <h2 className="text-xl opacity-50 py-2">
-          {description ? description : "Description"}
+          {description || "Description"}
         </h2>
 
         <ul className="list-disc py-2">
@@ -32,30 +71,20 @@ const WorkCard = ({ images, name, description, onClick, bullets }) => {
           const translateX = index === 0 ? 0 : (index % 2 === 1 ? -offsetX : offsetX);
           const rotate = (index % 2 === 0 ? 1 : -1) * (5 + index);
           const zIndex = 1;
-          const delay = index * 100;
 
           return (
-            <img
+            <motion.img
               key={index}
               src={image}
               alt={`Tech ${index}`}
-              style={{
-                transform: `translateX(${translateX}rem) translateY(-${offsetY}rem) rotate(${rotate}deg)`,
-                zIndex,
-                transitionDelay: `${delay}ms`,
-              }}
-              className="
-                absolute bottom-[-10rem] left-1/2
-                w-20 h-20 object-contain opacity-85
-                transition-all duration-700 ease-out
-                group-hover:bottom-[0rem]
-                group-hover:scale-110
-              "
+              className="absolute left-1/2 w-20 h-20 object-contain"
+              style={{ zIndex }}
+              variants={generateImgVariants(index, translateX, offsetY, rotate)}
             />
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
