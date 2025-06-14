@@ -25,6 +25,7 @@ export default function Home() {
   const textThree = useRef();
   const textFour = useRef();
   const theme = useTheme();
+  const [visibleCount, setVisibleCount] = useState(6);
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -41,6 +42,11 @@ export default function Home() {
       left: 0,
       behavior: "smooth",
     });
+  };
+
+
+  const handleShowMore = () => {
+    setVisibleCount((prev) => prev + 6);
   };
 
   useIsomorphicLayoutEffect(() => {
@@ -133,7 +139,7 @@ export default function Home() {
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:m-10 text-2xl text-bold">{data.headerTwo}</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
-            {data.services.map((service, index) => (
+            {data.services.slice(0, visibleCount).map((service, index) => (
               <HabilitiesCard
                 key={index}
                 name={service.title}
@@ -141,6 +147,33 @@ export default function Home() {
                 image={service.image}
               />
             ))}
+
+            {/* Placeholder para mantener el botón a la derecha si número de elementos es impar */}
+            <div className="hidden laptop:block " />
+
+            {visibleCount < data.services.length && (
+              <div className="flex justify-end">
+                <div
+                  className="group text-center mt-6 border-2 p-3 border-gray-300 rounded-lg transition-colors duration-300 w-1/2"
+                  onClick={handleShowMore}
+                >
+                  <button
+                    className="inline-flex items-center justify-center gap-2 text-gray-600 group-hover:text-gray-800 group-hover:bg-gray-50 font-medium text-sm sm:text-base w-full h-full py-1"
+                  >
+                    <span>{data.seeMore}</span>
+                    <svg
+                      className="w-4 h-4 text-inherit transition-transform duration-300 group-hover:translate-y-0.5"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
