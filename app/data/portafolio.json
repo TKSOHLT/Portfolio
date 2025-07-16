@@ -51,6 +51,61 @@
     },
     {
       "id": "2",
+      "title": "Cotizador de criptomonedas",
+      "description": "Cotizador de criptomonedas hecho con React, Typescript, Zod y Zustand",
+      "bullets": [
+        "⚛️ Desarrollado con React y TypeScript para una estructura sólida y escalable.",
+        "🔐 Validación de datos en formularios utilizando Zod.",
+        "⚡ Estado global eficiente mediante Zustand.",
+        "📈 Consulta de precios de criptomonedas como BTC, ETH, LTC, etc.",
+        "🧪 Buenas prácticas de tipado, reutilización de componentes y manejo de errores."
+      ],
+      "images": [
+        "/images/react.webp",
+        "/images/typescript.png",
+        "/images/tailwind.png",
+        "/images/zustand.png"
+      ],
+      "url": "https://github.com/TKSOHLT/Cripto-react-typescript"
+    },
+    {
+      "id": "3",
+      "title": "Consultor de clima",
+      "description": "Proyecto para obtener el clima en react, utilizando Zod, Valibot y CSS modules.",
+      "bullets": [
+        "🌤️ Consulta el clima actual por ciudad utilizando una API pública.",
+        "📦 Validación robusta de datos con Zod y Valibot.",
+        "🎨 Estilizado modular y escalable con CSS Modules.",
+        "⚛️ Componentes reutilizables para mostrar temperatura, humedad, y condiciones del clima."
+      ],
+      "images": [
+        "/images/react.webp",
+        "/images/typescript.png",
+        "/images/html.png"
+      ],
+      "url": "https://github.com/TKSOHLT/clima-react-typescript"
+    },
+    {
+      "id": "4",
+      "title": "Control de gastos",
+      "description": "Proyecto para tener un mejor control de gastos utilizando React, Typescript, Reducer y Context API",
+      "bullets": [
+        "💸 Registro de ingresos y egresos de forma clara y rápida.",
+        "📊 Visualización de gastos totales, disponibles y categorizados.",
+        "⚛️ Manejo de estado global con Context API y useReducer.",
+        "🔒 Tipado estricto con TypeScript para mayor seguridad en el desarrollo.",
+        "📁 Componentes reutilizables y separación clara de responsabilidades.",
+        "🎯 Interfaz intuitiva para usuarios que buscan controlar su presupuesto personal."
+      ],
+      "images": [
+        "/images/react.webp",
+        "/images/typescript.png",
+        "/images/html.png"
+      ],
+      "url": "https://github.com/TKSOHLT/control-gastos-contextapi"
+    },
+    {
+      "id": "5",
       "title": "Experiencias Mágicas",
       "description": "Aplicación de viajes móvil desarrollada con Flutter y Dart, diseñada para ayudar a los usuarios a planificar experiencias mágicas explorando itinerarios, viendo horarios y fotos, y comprando boletos sin problemas a través de PayPal.",
       "bullets": [
@@ -61,14 +116,11 @@
         "💳 Compra de entradas sin complicaciones integrada con PayPal para pagos seguros.",
         "🎯 Interfaz fácil de usar diseñada para una navegación y reserva fluidas."
       ],
-      "images": [
-        "/images/flutter.webp",
-        "/images/dart.png"
-      ],
+      "images": ["/images/flutter.webp", "/images/dart.png"],
       "url": "https://github.com/TKSOHLT/experiencias_magicas"
     },
     {
-      "id": "3",
+      "id": "6",
       "title": "Weather",
       "description": "Un diseño de interfaz de usuario de aplicación meteorológica limpio y moderno creado con SwiftUI, que muestra diseños, animaciones y elementos visuales sin lógica de backend.",
       "bullets": [
@@ -79,10 +131,23 @@
         "🧹 Interfaz limpia e intuitiva.",
         "🔍 Énfasis en la legibilidad y la jerarquía visual."
       ],
+      "images": ["/images/swift.png"],
+      "url": "https://github.com/TKSOHLT/Weather"
+    },
+    {
+      "id": "7",
+      "title": "Visita mi github",
+      "description": "Visita mi cuenta de github para poder ver todos mis proyectos.",
+      "bullets": [],
       "images": [
+        "/images/astro.png",
+        "/images/react.webp",
+        "/images/zustand.png",
+        "/images/tailwind.png",
+        "/images/typescript.png",
         "/images/swift.png"
       ],
-      "url": "https://github.com/TKSOHLT/Weather"
+      "url": "https://github.com/TKSOHLT"
     }
   ],
   "services": [
@@ -112,97 +177,108 @@
     },
     {
       "id": "5",
+      "title": "Typescript",
+      "description": "Superset de JavaScript que añade tipado estático opcional, ideal para desarrollar aplicaciones web robustas, escalables y con menos errores.",
+      "image": "/images/typescript.png"
+    },
+    {
+      "id": "6",
       "title": "Vue.js",
       "description": "Un marco de JavaScript progresivo para crear interfaces de usuario y aplicaciones de una sola página.",
       "image": "/images/vue.png"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "Pinia",
       "description": "Una biblioteca de gestión de estados para Vue.js, que ofrece una alternativa más simple y moderna a Vuex.",
       "image": "/images/pinia.png"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "React",
       "description": "Una biblioteca de JavaScript para crear interfaces de usuario rápidas, dinámicas y reutilizables.",
       "image": "/images/react.webp"
     },
     {
-      "id": "8",
+      "id": "9",
+      "title": "Zustand",
+      "description": "Zustand es una biblioteca minimalista y poderosa de gestión de estado para aplicaciones React. Ofrece una alternativa simple y sin boilerplate a soluciones como Redux, manteniendo un rendimiento óptimo y una API muy intuitiva.",
+      "image": "/images/zustand.png"
+    },
+    {
+      "id": "10",
       "title": "HTML",
       "description": "El lenguaje de marcado estándar para crear la estructura de páginas web.",
       "image": "/images/html.png"
     },
     {
-      "id": "9",
+      "id": "11",
       "title": "CSS",
       "description": "Un lenguaje de hoja de estilo utilizado para diseñar el diseño y la apariencia del contenido web.",
       "image": "/images/css.png"
     },
     {
-      "id": "10",
+      "id": "12",
       "title": "Flutter",
       "description": "Un marco de interfaz de usuario de Google para crear aplicaciones compiladas de forma nativa a partir de una única base de código.",
       "image": "/images/flutter.webp"
     },
     {
-      "id": "11",
+      "id": "13",
       "title": "Dart",
       "description": "Un lenguaje de programación rápido y orientado a objetos de Google, optimizado para crear aplicaciones compiladas de forma nativa para dispositivos móviles, la Web y computadoras de escritorio a partir de una única base de código.",
       "image": "/images/dart.png"
     },
-
     {
-      "id": "12",
+      "id": "14",
       "title": "SwiftUI",
       "description": "Un marco moderno de Apple para crear interfaces de usuario de iOS, macOS y watchOS.",
       "image": "/images/swift.png"
     },
     {
-      "id": "13",
+      "id": "15",
       "title": "Adobe Photoshop",
       "description": "Una herramienta estándar de la industria para la edición de fotografías, el diseño gráfico y el arte digital.",
       "image": "/images/photoshop.png"
     },
     {
-      "id": "14",
+      "id": "16",
       "title": "Adobe Illustrator",
       "description": "Un editor de gráficos vectoriales utilizado para crear logotipos, ilustraciones e íconos.",
       "image": "/images/illustrator.png"
     },
     {
-      "id": "15",
+      "id": "17",
       "title": "MySQL",
       "description": "Un sistema de base de datos relacional de código abierto para almacenar y gestionar datos estructurados.",
       "image": "/images/mysql.png"
     },
     {
-      "id": "16",
+      "id": "18",
       "title": "Figma",
       "description": "Una herramienta de diseño basada en la nube para diseño de UI/UX y creación de prototipos colaborativos.",
       "image": "/images/figma.webp"
     },
     {
-      "id": "17",
+      "id": "19",
       "title": "PHP",
       "description": "Un lenguaje de programación del lado del servidor ampliamente utilizado para el desarrollo web y sitios web dinámicos.",
       "image": "/images/php.png"
     },
     {
-      "id": "18",
+      "id": "20",
       "title": "Node.js",
       "description": "Un entorno de ejecución de JavaScript creado con el motor V8 de Chrome, ideal para aplicaciones backend escalables.",
       "image": "/images/node.png"
     },
     {
-      "id": "19",
+      "id": "21",
       "title": "Astro",
       "description": "Un constructor de sitios estáticos moderno que ofrece un rendimiento increíblemente rápido al enviar menos JavaScript y habilitar una arquitectura basada en islas.",
       "image": "/images/astro.png"
     },
     {
-      "id": "20",
+      "id": "22",
       "title": "Tailwind CSS",
       "description": "Un constructor de sitios estáticos moderno que ofrece un rendimiento increíblemente rápido al enviar menos JavaScript y habilitar una arquitectura basada en islas.",
       "image": "/images/tailwind.png"
@@ -259,8 +335,25 @@
       "universityDate": "2019-2025",
       "universityPara": "Ingeniería en sistemas computacionales"
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Dart", "Java", "Kotlin", "SQL", "Swift", "PHP"],
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "Dart",
+      "Java",
+      "Kotlin",
+      "SQL",
+      "Swift",
+      "PHP"
+    ],
     "frameworks": ["Jetpack Compose", "Vue.js", "React", "NodeJs", "Astro"],
-    "others": ["Figma", "Flutter", "Adobe Photoshop", "Adobe Illustrator", "Pinia", "Tailwind CSS"]
+    "others": [
+      "Figma",
+      "Flutter",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Pinia",
+      "Tailwind CSS"
+    ]
   }
 }

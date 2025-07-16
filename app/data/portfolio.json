@@ -33,13 +33,13 @@
     {
       "id": "1",
       "title": "DentistLanding",
-      "description": "A modern and responsive landing page designed for dental clinics, focused on attracting new patients by clearly showcasing services, office hours, and contact information.",
+      "description": "A modern and responsive landing page designed for dental clinics, focused on attracting new patients by clearly showcasing services, hours, and contact information.",
       "bullets": [
-        "🦷 UI Prototype Design: Clean and professional user interface tailored for dental services.",
-        "📱 Responsive Layout: Fully optimized for mobile, tablet, and desktop devices.",
-        "⚙️ Modern Tech Stack: Built using React and Tailwind CSS for fast and efficient development.",
-        "✉️ Contact Form: Includes a contact form to receive inquiries.",
-        "🎨 Customizable Design: Easy to adapt colors, fonts, and content to match any dental clinic’s brand."
+        "🦷 UI Prototype Design: User-friendly interface tailored for dental services.",
+        "📱 Responsive Design: Fully optimized for mobile, tablet, and desktop devices.",
+        "⚙️ Modern Tech Stack: Built with React and Tailwind CSS for agile and efficient development.",
+        "✉️ Contact Form: Includes a contact form for receiving inquiries.",
+        "🎨 Customizable Design: Easy-to-adapt colors, fonts, and content to match any dental brand."
       ],
       "images": [
         "/images/astro.png",
@@ -51,38 +51,104 @@
     },
     {
       "id": "2",
-      "title": "Experiencias Mágicas",
-      "description": "Mobile travel app built with Flutter and Dart, designed to help users plan magical experiences by browsing itineraries, viewing schedules and photos, and purchasing tickets seamlessly through PayPal.",
+      "title": "Crypto Price Quoter",
+      "description": "Crypto price quoter built with React, TypeScript, Zod, and Zustand.",
       "bullets": [
-        "🚀 Developed with Flutter and Dart for cross-platform mobile experience.",
-        "🗺️ Browse detailed travel itineraries tailored for magical journeys.",
-        "🕒 View schedules and availability for tours and events.",
-        "📸 Explore vibrant destination images to inspire travelers.",
-        "💳 Seamless ticket purchasing integrated with PayPal for secure payments.",
-        "🎯 User-friendly interface designed for smooth navigation and booking."
+        "⚛️ Built with React and TypeScript for a solid and scalable structure.",
+        "🔐 Data validation using Zod in forms.",
+        "⚡ Efficient global state management with Zustand.",
+        "📈 Query prices of cryptocurrencies like BTC, ETH, LTC, etc.",
+        "🧪 Best practices in typing, component reuse, and error handling."
       ],
       "images": [
-        "/images/flutter.webp",
-        "/images/dart.png"
+        "/images/react.webp",
+        "/images/typescript.png",
+        "/images/tailwind.png",
+        "/images/zustand.png"
       ],
-      "url": "https://github.com/TKSOHLT/experiencias_magicas"
+      "url": "https://github.com/TKSOHLT/Cripto-react-typescript"
     },
     {
       "id": "3",
-      "title": "Weather",
-      "description": "A clean and modern weather app UI design created with SwiftUI, showcasing layouts, animations, and visual elements without backend logic.",
+      "title": "Weather Consultant",
+      "description": "Project to get the current weather using React, Zod, Valibot, and CSS Modules.",
       "bullets": [
-        "🎨 Modern UI design focused on user experience",
-        "🛠️ Built entirely with SwiftUI components",
-        "✨ Includes smooth animations and transitions",
-        "📱 Responsive layout for different screen sizes",
-        "🧹 Clean and intuitive interface",
-        "🔍 Emphasis on readability and visual hierarchy"
+        "🌤️ Get current weather by city using a public API.",
+        "📦 Robust data validation with Zod and Valibot.",
+        "🎨 Modular and scalable styling with CSS Modules.",
+        "⚛️ Reusable components to display temperature, humidity, and weather conditions."
       ],
       "images": [
+        "/images/react.webp",
+        "/images/typescript.png",
+        "/images/html.png"
+      ],
+      "url": "https://github.com/TKSOHLT/clima-react-typescript"
+    },
+    {
+      "id": "4",
+      "title": "Expense Tracker",
+      "description": "Project to better manage personal expenses using React, TypeScript, Reducer, and Context API.",
+      "bullets": [
+        "💸 Record income and expenses clearly and quickly.",
+        "📊 Visualize total expenses, available funds, and categorized spending.",
+        "⚛️ Global state management with Context API and useReducer.",
+        "🔒 Strict typing with TypeScript for safer development.",
+        "📁 Reusable components and clear separation of concerns.",
+        "🎯 Intuitive interface for users aiming to control their personal budget."
+      ],
+      "images": [
+        "/images/react.webp",
+        "/images/typescript.png",
+        "/images/html.png"
+      ],
+      "url": "https://github.com/TKSOHLT/control-gastos-contextapi"
+    },
+    {
+      "id": "5",
+      "title": "Magical Experiences",
+      "description": "Mobile travel app developed with Flutter and Dart, designed to help users plan magical experiences by exploring itineraries, viewing schedules and photos, and purchasing tickets seamlessly via PayPal.",
+      "bullets": [
+        "🚀 Developed with Flutter and Dart for a cross-platform mobile experience.",
+        "🗺️ Explore detailed travel itineraries designed for magical journeys.",
+        "🕒 View tour and event schedules and availability.",
+        "📸 Explore vibrant destination images to inspire travelers.",
+        "💳 Hassle-free ticket purchasing with integrated PayPal payment.",
+        "🎯 User-friendly interface designed for smooth navigation and booking."
+      ],
+      "images": ["/images/flutter.webp", "/images/dart.png"],
+      "url": "https://github.com/TKSOHLT/experiencias_magicas"
+    },
+    {
+      "id": "6",
+      "title": "Weather",
+      "description": "A clean and modern weather app UI design built with SwiftUI, showcasing layouts, animations, and visual elements without backend logic.",
+      "bullets": [
+        "🎨 Modern user interface focused on user experience.",
+        "🛠️ Entirely built with SwiftUI components.",
+        "✨ Includes smooth animations and transitions.",
+        "📱 Responsive design for different screen sizes.",
+        "🧹 Clean and intuitive interface.",
+        "🔍 Emphasis on readability and visual hierarchy."
+      ],
+      "images": ["/images/swift.png"],
+      "url": "https://github.com/TKSOHLT/Weather"
+    },
+    {
+      "id": "7",
+      "title": "Visit my GitHub",
+      "description": "Visit my GitHub profile to explore all my projects.",
+      "bullets": [
+      ],
+      "images": [
+        "/images/astro.png",
+        "/images/react.webp",
+        "/images/zustand.png",
+        "/images/tailwind.png",
+        "/images/typescript.png",
         "/images/swift.png"
       ],
-      "url": "http://chetanverma.com/"
+      "url": "https://github.com/TKSOHLT"
     }
   ],
   "services": [
@@ -112,97 +178,108 @@
     },
     {
       "id": "5",
+      "title": "Typescript",
+      "description": "Superset of JavaScript that adds optional static typing, ideal for building robust, scalable, and error-resistant web applications.",
+      "image": "/images/typescript.png"
+    },
+    {
+      "id": "6",
       "title": "Vue.js",
       "description": "A progressive JavaScript framework for building user interfaces and single-page apps.",
       "image": "/images/vue.png"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "Pinia",
       "description": "A state management library for Vue.js, offering a simpler and modern alternative to Vuex.",
       "image": "/images/pinia.png"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "React",
       "description": "A JavaScript library for building fast, dynamic, and reusable user interfaces.",
       "image": "/images/react.webp"
     },
     {
-      "id": "8",
+      "id": "9",
+      "title": "Zustand",
+      "description": "Zustand is a minimalist and powerful state management library for React applications. It offers a simple, boilerplate-free alternative to solutions like Redux, while maintaining optimal performance and a very intuitive API.",
+      "image": "/images/zustand.png"
+    },
+    {
+      "id": "10",
       "title": "HTML",
       "description": "The standard markup language for creating the structure of web pages.",
       "image": "/images/html.png"
     },
     {
-      "id": "9",
+      "id": "11",
       "title": "CSS",
       "description": "A stylesheet language used to style the layout and appearance of web content.",
       "image": "/images/css.png"
     },
     {
-      "id": "10",
+      "id": "12",
       "title": "Flutter",
       "description": "A UI framework by Google for building natively compiled apps from a single codebase.",
       "image": "/images/flutter.webp"
     },
     {
-      "id": "11",
+      "id": "13",
       "title": "Dart",
       "description": "A fast, object-oriented programming language by Google optimized for building natively compiled applications for mobile, web, and desktop from a single codebase.",
       "image": "/images/dart.png"
     },
-
     {
-      "id": "12",
+      "id": "14",
       "title": "SwiftUI",
       "description": "A modern framework by Apple for building iOS, macOS, and watchOS user interfaces.",
       "image": "/images/swift.png"
     },
     {
-      "id": "13",
+      "id": "15",
       "title": "Adobe Photoshop",
       "description": "An industry-standard tool for photo editing, graphic design, and digital art.",
       "image": "/images/photoshop.png"
     },
     {
-      "id": "14",
+      "id": "16",
       "title": "Adobe Illustrator",
       "description": "A vector graphics editor used for creating logos, illustrations, and icons.",
       "image": "/images/illustrator.png"
     },
     {
-      "id": "15",
+      "id": "17",
       "title": "MySQL",
       "description": "An open-source relational database system for storing and managing structured data.",
       "image": "/images/mysql.png"
     },
     {
-      "id": "16",
+      "id": "18",
       "title": "Figma",
       "description": "A cloud-based design tool for UI/UX design and collaborative prototyping.",
       "image": "/images/figma.webp"
     },
     {
-      "id": "17",
+      "id": "19",
       "title": "PHP",
       "description": "A server-side scripting language widely used for web development and dynamic websites.",
       "image": "/images/php.png"
     },
     {
-      "id": "18",
+      "id": "20",
       "title": "Node.js",
       "description": "A JavaScript runtime built on Chrome's V8 engine, ideal for scalable backend applications.",
       "image": "/images/node.png"
     },
     {
-      "id": "19",
+      "id": "21",
       "title": "Astro",
       "description": "A modern static site builder that delivers lightning-fast performance by shipping less JavaScript and enabling island-based architecture.",
       "image": "/images/astro.png"
     },
     {
-      "id": "20",
+      "id": "22",
       "title": "Tailwind CSS",
       "description": "A modern static site builder that delivers lightning-fast performance by shipping less JavaScript and enabling island-based architecture.",
       "image": "/images/tailwind.png"
@@ -259,8 +336,25 @@
       "universityDate": "2019-2025",
       "universityPara": "Computer Systems Engineering"
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Dart", "Java", "Kotlin", "SQL", "Swift", "PHP"],
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "Dart",
+      "Java",
+      "Kotlin",
+      "SQL",
+      "Swift",
+      "PHP"
+    ],
     "frameworks": ["Jetpack Compose", "Vue.js", "React", "NodeJs", "Astro"],
-    "others": ["Figma", "Flutter", "Adobe Photoshop", "Adobe Illustrator", "Pinia", "Tailwind CSS"]
+    "others": [
+      "Figma",
+      "Flutter",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Pinia",
+      "Tailwind CSS"
+    ]
   }
 }
