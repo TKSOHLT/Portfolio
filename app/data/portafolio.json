@@ -51,6 +51,26 @@
     },
     {
       "id": "2",
+      "title": "Recetas de bebidas con IA",
+      "description": "Buscador de recetas de bebidas con IA, utilizando React router, Tailwindcss, Zusdant, Zod y más.",
+      "bullets": [
+        "⚛️ React Router para navegación entre páginas",
+        "✨ Zustand para manejo global de estado",
+        "🔐 Zod para validación de esquemas",
+        "🎨 Tailwind CSS para estilos rápidos y responsivos",
+        "🧠 Integración con IA para la generación de recetas"
+      ],
+      "images": [
+        "/images/react.webp",
+        "/images/tailwind.png",
+        "/images/zustand.png",
+        "/images/typescript.png",
+        "/images/gemini.webp"
+      ],
+      "url": "https://github.com/TKSOHLT/bebidas-react-typescript"
+    },
+    {
+      "id": "3",
       "title": "Cotizador de criptomonedas",
       "description": "Cotizador de criptomonedas hecho con React, Typescript, Zod y Zustand",
       "bullets": [
@@ -69,7 +89,7 @@
       "url": "https://github.com/TKSOHLT/Cripto-react-typescript"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Consultor de clima",
       "description": "Proyecto para obtener el clima en react, utilizando Zod, Valibot y CSS modules.",
       "bullets": [
@@ -86,7 +106,7 @@
       "url": "https://github.com/TKSOHLT/clima-react-typescript"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Control de gastos",
       "description": "Proyecto para tener un mejor control de gastos utilizando React, Typescript, Reducer y Context API",
       "bullets": [
@@ -105,7 +125,7 @@
       "url": "https://github.com/TKSOHLT/control-gastos-contextapi"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Experiencias Mágicas",
       "description": "Aplicación de viajes móvil desarrollada con Flutter y Dart, diseñada para ayudar a los usuarios a planificar experiencias mágicas explorando itinerarios, viendo horarios y fotos, y comprando boletos sin problemas a través de PayPal.",
       "bullets": [
@@ -120,7 +140,7 @@
       "url": "https://github.com/TKSOHLT/experiencias_magicas"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "Weather",
       "description": "Un diseño de interfaz de usuario de aplicación meteorológica limpio y moderno creado con SwiftUI, que muestra diseños, animaciones y elementos visuales sin lógica de backend.",
       "bullets": [
@@ -135,7 +155,7 @@
       "url": "https://github.com/TKSOHLT/Weather"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "Visita mi github",
       "description": "Visita mi cuenta de github para poder ver todos mis proyectos.",
       "bullets": [],

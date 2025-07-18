@@ -51,6 +51,26 @@
     },
     {
       "id": "2",
+      "title": "AI Drink Recipes",
+      "description": "BusAI-powered drink recipe finder using React Router, Tailwind CSS, Zusdant, Zod, and more.",
+      "bullets": [
+        "⚛️ React Router for page navigation",
+        "✨ Zustand para manejo global de estado",
+        "🔐 Zod for schema validation",
+        "🎨 Tailwind CSS for fast and responsive styles",
+        "🧠 AI integration for recipe generation"
+      ],
+      "images": [
+        "/images/react.webp",
+        "/images/tailwind.png",
+        "/images/zustand.png",
+        "/images/typescript.png",
+        "/images/gemini.webp"
+      ],
+      "url": "https://github.com/TKSOHLT/bebidas-react-typescript"
+    },
+    {
+      "id": "3",
       "title": "Crypto Price Quoter",
       "description": "Crypto price quoter built with React, TypeScript, Zod, and Zustand.",
       "bullets": [
@@ -69,7 +89,7 @@
       "url": "https://github.com/TKSOHLT/Cripto-react-typescript"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Weather Consultant",
       "description": "Project to get the current weather using React, Zod, Valibot, and CSS Modules.",
       "bullets": [
@@ -86,7 +106,7 @@
       "url": "https://github.com/TKSOHLT/clima-react-typescript"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Expense Tracker",
       "description": "Project to better manage personal expenses using React, TypeScript, Reducer, and Context API.",
       "bullets": [
@@ -105,7 +125,7 @@
       "url": "https://github.com/TKSOHLT/control-gastos-contextapi"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Magical Experiences",
       "description": "Mobile travel app developed with Flutter and Dart, designed to help users plan magical experiences by exploring itineraries, viewing schedules and photos, and purchasing tickets seamlessly via PayPal.",
       "bullets": [
@@ -120,7 +140,7 @@
       "url": "https://github.com/TKSOHLT/experiencias_magicas"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "Weather",
       "description": "A clean and modern weather app UI design built with SwiftUI, showcasing layouts, animations, and visual elements without backend logic.",
       "bullets": [
@@ -135,7 +155,7 @@
       "url": "https://github.com/TKSOHLT/Weather"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "Visit my GitHub",
       "description": "Visit my GitHub profile to explore all my projects.",
       "bullets": [
