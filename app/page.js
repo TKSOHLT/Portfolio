@@ -122,10 +122,10 @@ export default function Home() {
           <div className="hidden laptop:flex gap-6 pr-10 relative" id="floating-tech">
             <div className="grid grid-cols-3 gap-5">
               <div className="col-start-2">
-                <FloatingImage src="/images/flutter.webp" alt="Flutter" />
+                <FloatingImage src="/images/typescript.png" alt="Typescript" />
               </div>
               <div className="col-start-1">
-                <FloatingImage src="/images/kotlin.png" alt="Kotlin" />
+                <FloatingImage src="/images/node.png" alt="NodeJS" />
               </div>
                 <FloatingImage src="/images/vue.png" alt="Vue" />
                 <FloatingImage src="/images/react.webp" alt="React" />

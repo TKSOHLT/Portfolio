@@ -185,12 +185,6 @@
       "image": "/images/jetpack_compose.png"
     },
     {
-      "id": "3",
-      "title": "Java",
-      "description": "A widely-used language for building Android apps and cross-platform applications.",
-      "image": "/images/java.png"
-    },
-    {
       "id": "4",
       "title": "JavaScript",
       "description": "The core language of the web, used for interactive and dynamic web pages.",
@@ -239,24 +233,6 @@
       "image": "/images/css.png"
     },
     {
-      "id": "12",
-      "title": "Flutter",
-      "description": "A UI framework by Google for building natively compiled apps from a single codebase.",
-      "image": "/images/flutter.webp"
-    },
-    {
-      "id": "13",
-      "title": "Dart",
-      "description": "A fast, object-oriented programming language by Google optimized for building natively compiled applications for mobile, web, and desktop from a single codebase.",
-      "image": "/images/dart.png"
-    },
-    {
-      "id": "14",
-      "title": "SwiftUI",
-      "description": "A modern framework by Apple for building iOS, macOS, and watchOS user interfaces.",
-      "image": "/images/swift.png"
-    },
-    {
       "id": "15",
       "title": "Adobe Photoshop",
       "description": "An industry-standard tool for photo editing, graphic design, and digital art.",
@@ -279,12 +255,6 @@
       "title": "Figma",
       "description": "A cloud-based design tool for UI/UX design and collaborative prototyping.",
       "image": "/images/figma.webp"
-    },
-    {
-      "id": "19",
-      "title": "PHP",
-      "description": "A server-side scripting language widely used for web development and dynamic websites.",
-      "image": "/images/php.png"
     },
     {
       "id": "20",

@@ -184,12 +184,6 @@
       "image": "/images/jetpack_compose.png"
     },
     {
-      "id": "3",
-      "title": "Java",
-      "description": "Un lenguaje ampliamente utilizado para crear aplicaciones de Android y aplicaciones multiplataforma.",
-      "image": "/images/java.png"
-    },
-    {
       "id": "4",
       "title": "JavaScript",
       "description": "El lenguaje principal de la web, utilizado para páginas web interactivas y dinámicas.",
@@ -238,24 +232,6 @@
       "image": "/images/css.png"
     },
     {
-      "id": "12",
-      "title": "Flutter",
-      "description": "Un marco de interfaz de usuario de Google para crear aplicaciones compiladas de forma nativa a partir de una única base de código.",
-      "image": "/images/flutter.webp"
-    },
-    {
-      "id": "13",
-      "title": "Dart",
-      "description": "Un lenguaje de programación rápido y orientado a objetos de Google, optimizado para crear aplicaciones compiladas de forma nativa para dispositivos móviles, la Web y computadoras de escritorio a partir de una única base de código.",
-      "image": "/images/dart.png"
-    },
-    {
-      "id": "14",
-      "title": "SwiftUI",
-      "description": "Un marco moderno de Apple para crear interfaces de usuario de iOS, macOS y watchOS.",
-      "image": "/images/swift.png"
-    },
-    {
       "id": "15",
       "title": "Adobe Photoshop",
       "description": "Una herramienta estándar de la industria para la edición de fotografías, el diseño gráfico y el arte digital.",
@@ -278,12 +254,6 @@
       "title": "Figma",
       "description": "Una herramienta de diseño basada en la nube para diseño de UI/UX y creación de prototipos colaborativos.",
       "image": "/images/figma.webp"
-    },
-    {
-      "id": "19",
-      "title": "PHP",
-      "description": "Un lenguaje de programación del lado del servidor ampliamente utilizado para el desarrollo web y sitios web dinámicos.",
-      "image": "/images/php.png"
     },
     {
       "id": "20",
