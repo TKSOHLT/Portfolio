@@ -3,7 +3,7 @@
   "headerTaglineOne": "¡Hola! 👋",
   "headerTaglineTwo": "Soy Moises Rodríguez - ",
   "headerTaglineThree": "Desarrollador Full Stack",
-  "headerTaglineFour": "Móvil & Web.",
+  "headerTaglineFour": "Web.",
   "showCursor": true,
   "darkMode": true,
   "headerOne": "Acerca de.",
@@ -172,18 +172,6 @@
   ],
   "services": [
     {
-      "id": "1",
-      "title": "Kotlin",
-      "description": "Un lenguaje de programación moderno para Android y desarrollo multiplataforma.",
-      "image": "/images/kotlin.png"
-    },
-    {
-      "id": "2",
-      "title": "Jetpack Compose",
-      "description": "Un kit de herramientas de interfaz de usuario para crear interfaces nativas de Android utilizando código declarativo.",
-      "image": "/images/jetpack_compose.png"
-    },
-    {
       "id": "4",
       "title": "JavaScript",
       "description": "El lenguaje principal de la web, utilizado para páginas web interactivas y dinámicas.",
@@ -194,18 +182,6 @@
       "title": "Typescript",
       "description": "Superset de JavaScript que añade tipado estático opcional, ideal para desarrollar aplicaciones web robustas, escalables y con menos errores.",
       "image": "/images/typescript.png"
-    },
-    {
-      "id": "6",
-      "title": "Vue.js",
-      "description": "Un marco de JavaScript progresivo para crear interfaces de usuario y aplicaciones de una sola página.",
-      "image": "/images/vue.png"
-    },
-    {
-      "id": "7",
-      "title": "Pinia",
-      "description": "Una biblioteca de gestión de estados para Vue.js, que ofrece una alternativa más simple y moderna a Vuex.",
-      "image": "/images/pinia.png"
     },
     {
       "id": "8",
@@ -274,9 +250,9 @@
       "image": "/images/tailwind.png"
     }
   ],
-  "aboutpara": "¡Hola! Soy Moisés Rodríguez Bolaños, un apasionado desarrollador de software especializado en desarrollo web y móvil full stack. Me apasiona crear soluciones limpias, eficientes y escalables que generen impacto. Con formación en Ingeniería de Sistemas Computacionales, he desarrollado y mantenido aplicaciones utilizando tecnologías como Flutter, Kotlin (Jetpack Compose), Vue.js, JavaScript, Java, PHP y Node.js. Ya sea una aplicación móvil multiplataforma o un sistema web complejo, disfruto llevando los proyectos desde la fase de concepto hasta la producción. Mi enfoque combina sólidos principios de ingeniería con un profundo conocimiento de la experiencia de usuario y los objetivos del producto. Siempre estoy explorando nuevas herramientas, mejorando mis habilidades y buscando mejores maneras de resolver problemas.",
+  "aboutpara": "¡Hola! Soy Moisés Rodríguez Bolaños, desarrollador Full Stack Web con más de dos años de experiencia desarrollando aplicaciones web escalables y orientadas a negocio utilizando React, Next.js, Node.js y TypeScript. Experiencia en diseño e implementación de APIs REST, autenticación JWT y SSO, manejo de bases de datos SQL y NoSQL, y desarrollo de soluciones full-stack con enfoque en arquitectura, mantenibilidad, rendimiento y experiencia de usuario. Acostumbrado a colaborar con equipos multidisciplinarios y a transformar requerimientos de negocio en soluciones técnicas claras y medibles.",
   "resume": {
-    "tagline": "👋 Soy un desarrollador full stack.",
+    "tagline": "👋 Soy un desarrollador Full Stack.",
     "description": "Ingeniero de Sistemas Informáticos con experiencia en desarrollo integral de aplicaciones móviles y web. Centrado en ofrecer soluciones eficientes y escalables, priorizando la experiencia del usuario y con capacidad para colaborar en equipos multidisciplinarios y adaptarse a nuevos retos tecnológicos.",
     "experiences": [
       {
@@ -289,32 +265,32 @@
             "id": "1",
             "title": "Resumen",
             "bullets": [
-              "Como desarrollador de software versátil, he contribuido a múltiples etapas del proceso de desarrollo, desde la arquitectura backend y el diseño de bases de datos hasta el desarrollo frontend y el diseño de la experiencia de usuario. He trabajado tanto en plataformas web como móviles, implementando interfaces responsivas e integrando API con tecnologías modernas como Vue.js, Flutter y Jetpack Compose. Priorizo ​​el código limpio, la optimización del rendimiento y la creación de experiencias de usuario intuitivas en todos los dispositivos."
+              "Como desarrollador Full Stack, he contribuido a múltiples etapas del proceso de desarrollo, desde la arquitectura backend y el diseño de bases de datos hasta el desarrollo frontend y el diseño de la experiencia de usuario. Trabajo implementando interfaces responsivas e integrando APIs. Priorizo ​​el código limpio, la optimización del rendimiento y la creación de experiencias de usuario intuitivas en todos los dispositivos."
             ]
           },
           {
             "id": "2",
             "title": "Responsabilidades",
             "bullets": [
-              "Desarrollé y mantuve aplicaciones backend utilizando PHP, implementando lógica de negocios y estructuras de bases de datos MySQL de acuerdo con los requisitos del proyecto.",
-              "Diseñé esquemas de bases de datos relacionales optimizados para el rendimiento y la escalabilidad.",
-              "Creé API simples y funcionales para permitir la comunicación entre el frontend (por ejemplo, Vue.js con Pinia) y el backend.",
-              "Colaboré ​​​​en el diseño y desarrollo de interfaces centradas en el usuario utilizando Figma, con un fuerte enfoque en la usabilidad, la accesibilidad y la experiencia visual.",
-              "Contribuí a las decisiones técnicas sobre la organización del código, la estructura del proyecto y el flujo de datos, especialmente en proyectos móviles utilizando Flutter/Dart, Jetpack Compose (Kotlin) y Swift UI.",
-              "Implementé funciones móviles nativas con Java y Kotlin para Android y Swift para iOS, lo que garantiza la consistencia y el alto rendimiento en todas las plataformas.",
-              "Depuré y corregí errores además de la optimización del rendimiento en aplicaciones web y móviles."
+              "Diseñar y desarrollar aplicaciones web full-stack utilizando React, Next.js, Node.js, TypeScript y PHP.",
+              "Analizar requerimientos de negocio y transformarlos en soluciones técnicas escalables y mantenibles.",
+              "Diseñar e implementar APIs REST seguras para la comunicación entre frontend y backend.",
+              "Implementar sistemas de autenticación y gestión de sesiones mediante JWT y Single Sign-On (SSO).",
+              "Desarrollar interfaces web responsivas y orientadas a usabilidad, priorizando la experiencia del usuario.",
+              "Gestionar y modelar bases de datos SQL y NoSQL (MySQL, PostgreSQL, MongoDB).",
+              "Documentar funcionalidades, flujos y procesos técnicos para facilitar mantenimiento y escalabilidad."
             ]
           },
           {
             "id": "3",
             "title": "Desafíos y soluciones",
-            "description": "Uno de mis retos más complejos fue crear una aplicación Android en modo quiosco utilizando las API del propietario del dispositivo para mejorar el control de los smartphones. Esta aplicación debía funcionar como el lanzador principal y bloquear o suspender completamente el dispositivo. Solución:",
+            "description": "Unificar y escalar la autenticación de múltiples aplicaciones internas, que anteriormente manejaban sesiones independientes, duplicaban lógica, eran difíciles de mantener y generaban problemas de seguridad y experiencia de usuario.",
             "bullets": [
-              "Se implementó el bloqueo total del dispositivo y el cambio al modo quiosco, utilizando las API DevicePolicyManager de Android.",
-              "Se desarrollaron funciones de seguimiento de ubicación en tiempo real y captura de notificaciones que almacenan datos de forma segura en un servidor remoto.",
-              "Se habilitó la copia de seguridad automática de medios (imágenes, videos, archivos) en el servidor mediante almacenamiento con alcance y servicios en segundo plano.",
-              "Socket.IO integrado para establecer comunicación en tiempo real con una plataforma MDM personalizada construida en Node.js (aunque mi rol se centró únicamente en el cliente Android).",
-              "Tareas en segundo plano programadas mediante WorkManager para garantizar la confiabilidad y la persistencia en reinicios y cambios de red."
+              "Implementé autenticación basada en JWT, garantizando sesiones seguras y consistentes entre aplicaciones.",
+              "Desarrollé una librería cliente reutilizable en JavaScript puro, compatible con CommonJS y ES Modules.",
+              "Implementé comunicación en tiempo real con Socket.io para sincronizar el estado de sesión entre aplicaciones.",
+              "Documenté la librería y los flujos de integración, facilitando su adopción por otros desarrolladores.",
+              "Mejoré la experiencia del usuario final, permitiendo un inicio de sesión único y fluido en todas las plataformas internas."
             ]
           }
         ]
@@ -329,21 +305,22 @@
       "Javascript",
       "HTML5",
       "CSS",
-      "Dart",
-      "Java",
-      "Kotlin",
-      "SQL",
-      "Swift",
-      "PHP"
+      "Typescript",
+      "PHP",
+      "SQL"
     ],
-    "frameworks": ["Jetpack Compose", "Vue.js", "React", "NodeJs", "Astro"],
+    "frameworks": ["React", "Node.js", "Express", "Next.js"],
     "others": [
       "Figma",
-      "Flutter",
       "Adobe Photoshop",
       "Adobe Illustrator",
-      "Pinia",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+      "Docker",
+      "Postman",
+      "IA",
+      "MVC"
     ]
   }
 }

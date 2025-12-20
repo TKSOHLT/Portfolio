@@ -2,7 +2,7 @@
   "name": "Moises Rodríguez",
   "headerTaglineOne": "Hello! 👋",
   "headerTaglineTwo": "I'm Moises Rodríguez - ",
-  "headerTaglineThree": "Full Stack Mobile & Web",
+  "headerTaglineThree": "Full Stack Web",
   "headerTaglineFour": "developer.",
   "showCursor": true,
   "darkMode": true,
@@ -41,12 +41,7 @@
         "✉️ Contact Form: Includes a contact form for receiving inquiries.",
         "🎨 Customizable Design: Easy-to-adapt colors, fonts, and content to match any dental brand."
       ],
-      "images": [
-        "/images/astro.png",
-        "/images/react.webp",
-        "/images/html.png",
-        "/images/tailwind.png"
-      ],
+      "images": ["/images/astro.png", "/images/react.webp", "/images/html.png", "/images/tailwind.png"],
       "url": "https://github.com/TKSOHLT/DentistLanding"
     },
     {
@@ -60,13 +55,7 @@
         "🎨 Tailwind CSS for fast and responsive styles",
         "🧠 AI integration for recipe generation"
       ],
-      "images": [
-        "/images/react.webp",
-        "/images/tailwind.png",
-        "/images/zustand.png",
-        "/images/typescript.png",
-        "/images/gemini.webp"
-      ],
+      "images": ["/images/react.webp", "/images/tailwind.png", "/images/zustand.png", "/images/typescript.png", "/images/gemini.webp"],
       "url": "https://github.com/TKSOHLT/bebidas-react-typescript"
     },
     {
@@ -80,12 +69,7 @@
         "📈 Query prices of cryptocurrencies like BTC, ETH, LTC, etc.",
         "🧪 Best practices in typing, component reuse, and error handling."
       ],
-      "images": [
-        "/images/react.webp",
-        "/images/typescript.png",
-        "/images/tailwind.png",
-        "/images/zustand.png"
-      ],
+      "images": ["/images/react.webp", "/images/typescript.png", "/images/tailwind.png", "/images/zustand.png"],
       "url": "https://github.com/TKSOHLT/Cripto-react-typescript"
     },
     {
@@ -98,11 +82,7 @@
         "🎨 Modular and scalable styling with CSS Modules.",
         "⚛️ Reusable components to display temperature, humidity, and weather conditions."
       ],
-      "images": [
-        "/images/react.webp",
-        "/images/typescript.png",
-        "/images/html.png"
-      ],
+      "images": ["/images/react.webp", "/images/typescript.png", "/images/html.png"],
       "url": "https://github.com/TKSOHLT/clima-react-typescript"
     },
     {
@@ -117,11 +97,7 @@
         "📁 Reusable components and clear separation of concerns.",
         "🎯 Intuitive interface for users aiming to control their personal budget."
       ],
-      "images": [
-        "/images/react.webp",
-        "/images/typescript.png",
-        "/images/html.png"
-      ],
+      "images": ["/images/react.webp", "/images/typescript.png", "/images/html.png"],
       "url": "https://github.com/TKSOHLT/control-gastos-contextapi"
     },
     {
@@ -158,8 +134,7 @@
       "id": "8",
       "title": "Visit my GitHub",
       "description": "Visit my GitHub profile to explore all my projects.",
-      "bullets": [
-      ],
+      "bullets": [],
       "images": [
         "/images/astro.png",
         "/images/react.webp",
@@ -173,18 +148,6 @@
   ],
   "services": [
     {
-      "id": "1",
-      "title": "Kotlin",
-      "description": "A modern programming language for Android and multiplatform development.",
-      "image": "/images/kotlin.png"
-    },
-    {
-      "id": "2",
-      "title": "Jetpack Compose",
-      "description": "A UI toolkit for building native Android interfaces using declarative code.",
-      "image": "/images/jetpack_compose.png"
-    },
-    {
       "id": "4",
       "title": "JavaScript",
       "description": "The core language of the web, used for interactive and dynamic web pages.",
@@ -195,18 +158,6 @@
       "title": "Typescript",
       "description": "Superset of JavaScript that adds optional static typing, ideal for building robust, scalable, and error-resistant web applications.",
       "image": "/images/typescript.png"
-    },
-    {
-      "id": "6",
-      "title": "Vue.js",
-      "description": "A progressive JavaScript framework for building user interfaces and single-page apps.",
-      "image": "/images/vue.png"
-    },
-    {
-      "id": "7",
-      "title": "Pinia",
-      "description": "A state management library for Vue.js, offering a simpler and modern alternative to Vuex.",
-      "image": "/images/pinia.png"
     },
     {
       "id": "8",
@@ -275,10 +226,10 @@
       "image": "/images/tailwind.png"
     }
   ],
-  "aboutpara": "Hi! I'm Moises Rodríguez Bolaños, a passionate Software Developer specialized in full stack mobile and web development. I love building clean, efficient, and scalable solutions that make an impact.With a background in Computer Systems Engineering, I’ve developed and maintained apps using technologies like Flutter, Kotlin (Jetpack Compose), Vue.js, JavaScript, Java, PHP, and Node.js. Whether it's a cross-platform mobile app or a complex web system, I enjoy taking projects from concept to production.My approach blends solid engineering principles with a deep understanding of user experience and product goals. I’m always exploring new tools, improving my skills, and looking for better ways to solve problems..",
+  "aboutpara": "Hello! I'm Moisés Rodríguez Bolaños, a Full Stack Web Developer with over two years of experience building scalable, business-oriented web applications using React, Next.js, Node.js, and TypeScript. Experienced in designing and implementing REST APIs, JWT and SSO authentication, managing SQL and NoSQL databases, and developing full-stack solutions with a strong focus on architecture, maintainability, performance, and user experience. Accustomed to collaborating with multidisciplinary teams and transforming business requirements into clear and measurable technical solutions.",
   "resume": {
-    "tagline": "👋  I'm a full stack developer.",
-    "description": "Computer Systems Engineer with experience in full stack development for mobile and web applications. Focused on delivering efficient, scalable solutions with a strong emphasis on user experience, and adept at collaborating in multidisciplinary teams and adapting to new technological challenges.",
+    "tagline": "👋 I'm a Full Stack Developer.",
+    "description": "Computer Systems Engineer with experience in end-to-end development of mobile and web applications. Focused on delivering efficient and scalable solutions, prioritizing user experience, with the ability to collaborate in multidisciplinary teams and adapt to new technological challenges.",
     "experiences": [
       {
         "id": "1",
@@ -290,32 +241,32 @@
             "id": "1",
             "title": "Summary",
             "bullets": [
-              "As a versatile software developer, I have contributed to multiple stages of the development process—from backend architecture and database design to frontend development and user experience design. I have worked on both web and mobile platforms, implementing responsive interfaces and integrating APIs using modern technologies like Vue.js, Flutter, and Jetpack Compose. I emphasize clean code, performance optimization, and creating intuitive user experiences across devices."
+              "As a Full Stack Developer, I have contributed across multiple stages of the development lifecycle, from backend architecture and database design to frontend development and user experience design. I work on building responsive interfaces and integrating APIs, prioritizing clean code, performance optimization, and intuitive user experiences across all devices."
             ]
           },
           {
             "id": "2",
             "title": "Responsabilities",
             "bullets": [
-              "Developed and maintained backend applications using PHP, implementing business logic and MySQL database structures according to project requirements.",
-              "Designed relational database schemas optimized for performance and scalability.",
-              "Built simple and functional APIs to enable communication between the frontend (e.g., Vue.js with Pinia) and the backend.",
-              "Collaborated on the design and development of user-centered interfaces using Figma, with a strong focus on usability, accessibility, and visual experience.",
-              "Contributed to technical decisions regarding code organization, project structure, and data flow, especially in mobile projects using Flutter/Dart, Jetpack Compose (Kotlin), and Swift UI.",
-              "Implemented native mobile features with Java and Kotlin for Android, and Swift for iOS, ensuring consistency and high performance across platforms.",
-              "Supported debugging, bug fixing, and performance optimization in both web and mobile applications."
+              "Design and develop full-stack web applications using React, Next.js, Node.js, TypeScript, and PHP.",
+              "Analyze business requirements and translate them into scalable and maintainable technical solutions.",
+              "Design and implement secure REST APIs for communication between frontend and backend.",
+              "Implement authentication and session management systems using JWT and Single Sign-On (SSO).",
+              "Develop responsive, usability-focused web interfaces, prioritizing user experience.",
+              "Manage and model SQL and NoSQL databases (MySQL, PostgreSQL, MongoDB).",
+              "Document features, workflows, and technical processes to support maintenance and scalability."
             ]
           },
           {
             "id": "3",
             "title": "Challenges & Solutions",
-            "description": "One of my most complex challenges was building a kiosk-mode Android application using Device Owner APIs to enhance control over the smartphones. This app needed to function as the primary launcher, fully lock or suspend the device. Solution:",
+            "description": "Unify and scale authentication across multiple internal applications that previously managed independent sessions, duplicated logic, were difficult to maintain, and caused security and user experience issues.",
             "bullets": [
-              "Implemented full device lockdown and kiosk mode toggle, using Android’s DevicePolicyManager APIs.",
-              "Developed real-time location tracking, and notification capture features that store data securely on a remote server.",
-              "Enabled automatic media backup (images, videos, files) to the server using scoped storage and background services.",
-              "Integrated Socket.IO to establish real-time communication with a custom MDM platform built in Node.js (although my role was focused solely on the Android client).",
-              "Scheduled background tasks using WorkManager to ensure reliability and persistence across reboots and network changes."
+              "Implemented JWT-based authentication, ensuring secure and consistent sessions across applications.",
+              "Developed a reusable client-side library in vanilla JavaScript, compatible with both CommonJS and ES Modules.",
+              "Implemented real-time communication using Socket.io to synchronize session state across applications.",
+              "Documented the library and integration flows, enabling easy adoption by other developers.",
+              "Improved the end-user experience by enabling a seamless single sign-on across all internal platforms."
             ]
           }
         ]
@@ -326,25 +277,8 @@
       "universityDate": "2019-2025",
       "universityPara": "Computer Systems Engineering"
     },
-    "languages": [
-      "Javascript",
-      "HTML5",
-      "CSS",
-      "Dart",
-      "Java",
-      "Kotlin",
-      "SQL",
-      "Swift",
-      "PHP"
-    ],
-    "frameworks": ["Jetpack Compose", "Vue.js", "React", "NodeJs", "Astro"],
-    "others": [
-      "Figma",
-      "Flutter",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Pinia",
-      "Tailwind CSS"
-    ]
+    "languages": ["Javascript", "HTML5", "CSS", "Typescript", "PHP", "SQL"],
+    "frameworks": ["React", "Node.js", "Express", "Next.js"],
+    "others": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Tailwind CSS", "Git", "GitHub", "Docker", "Postman", "IA", "MVC"]
   }
 }

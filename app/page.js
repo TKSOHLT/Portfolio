@@ -127,7 +127,7 @@ export default function Home() {
               <div className="col-start-1">
                 <FloatingImage src="/images/node.png" alt="NodeJS" />
               </div>
-                <FloatingImage src="/images/vue.png" alt="Vue" />
+                <FloatingImage src="/images/zustand.png" alt="Vue" />
                 <FloatingImage src="/images/react.webp" alt="React" />
               <div className="col-start-2">
                 <FloatingImage src="/images/mysql.png" alt="Mysql" />
